@@ -1,0 +1,35 @@
+{
+  "name": "hplayer",
+  "version": "1.0.0",
+  "description": "底层基于video.js的web播放器",
+  "main": "dist/hplayer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/answercxy-media/hPlayer.git"
+  },
+  "keywords": [
+    "hplayer"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/answercxy-media/hPlayer/issues"
+  },
+  "homepage": "https://github.com/answercxy-media/hPlayer#readme",
+  "dependencies": {
+    "video.js": "^7.6.5"
+  },
+  "devDependencies": {
+    "rollup": "^1.23.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-plugin-uglify": "^6.0.3",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.4",
+    "videojs-generate-rollup-config": "^5.0.1"
+  }
+}
