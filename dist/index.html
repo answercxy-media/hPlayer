@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>video.js示例</title>
+  </head>
+  <body>
+    <video
+      id="test"
+      class="video-js vjs-default-skin vjs-big-play-centered"
+    ></video>
+    <script src="hPlayer.min.js"></script>
+    <script>
+      var player = new HPlayer(
+        'test',
+        {
+          width: 640,
+          height: 360
+        },
+        function() {
+          player.src('https://image.lceda.cn/videos/Schematic-Theme.mp4');
+        }
+      );
+    </script>
+  </body>
+</html>
