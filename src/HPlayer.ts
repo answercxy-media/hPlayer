@@ -1,4 +1,5 @@
 import videoJs from 'video.js';
+import { createHPlayer } from './createHPlayer';
 
 // hPlayer默认配置
 const defaultOptions = {
@@ -14,9 +15,13 @@ const defaultOptions = {
   language: 'zh-CN'
 };
 
+(function() {
+  createHPlayer();
+})();
+
 /**
  * HPlayer播放器类
- * @export
+ * @export videoJs
  * @class HPlayer
  */
 // TODO: options,readyFunc可精准定位
